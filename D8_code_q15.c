@@ -13,6 +13,6 @@ int main()
     else if (ch >= '0' && ch <= '9')
         printf("%c is a digit between 0 to 9 \n", ch);
     else
-        printf("%c is a special character \n");
+        printf("%c is a special character \n", ch);
     return 0;
 }
